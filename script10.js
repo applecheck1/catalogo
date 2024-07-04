@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     const productosContainer = document.getElementById("productos-container");
     // Iterar sobre los productos de la categoría "cargadores"
-    productos["audifonos"].forEach(producto => {
+    productos["forros-huawei"].forEach(producto => {
         const productoElement = document.createElement("div");
         productoElement.classList.add("col-md-6", "col-lg-4", "mb-1");
         productoElement.innerHTML = `

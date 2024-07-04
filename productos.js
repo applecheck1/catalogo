@@ -57,61 +57,81 @@ const productos = {
     "forros-iphone":[
         {
             "nombre": "Forros Xs max ",
-            "imagen": "forros",
+            "imagen": "forros/forrosjose/IMG-20240703-WA0036.jpg",
             "precio": 10000 
         },  
         {
             "nombre": "Forros 11",
-            "imagen": "forros",
+            "imagen": "forros/forrosjose/IMG-20240703-WA0038.jpg",
             "precio": 10000 
         },
         {
             "nombre": "Forros 11 Pro ",
-            "imagen": "forros",
+            "imagen": "forros/forrosjose/IMG-20240703-WA0042.jpg",
             "precio": 10000 
         },
         {
             "nombre": "Forros 12-12 Pro ",
-            "imagen": "forros",
+            "imagen": "forros/forrosjose/IMG-20240703-WA0035.jpg",
             "precio": 10000 
         },  
         {
             "nombre": "Forros 13 Pro-14 Pro",
-            "imagen": "forros",
+            "imagen": "forros/forrosjose/IMG-20240703-WA0049.jpg",
             "precio": 10000 
         },  
         {
             "nombre": "Forros 13 Pro Max ",
-            "imagen": "forros",
+            "imagen": "forros/forrosjose/IMG-20240703-WA0042.jpg",
             "precio": 10000 
         },  
         {
             "nombre": "Forros",
-            "imagen": "forros",
+            "imagen": "forros/forrosjose/IMG-20240703-WA0061.jpg",
             "precio": 10000 
         },  
         {
             "nombre": "Forros",
-            "imagen": "forros",
+            "imagen": "forros/forrosjose/IMG-20240703-WA0061.jpg",
             "precio": 10000 
         },  
         {
             "nombre": "Forros",
-            "imagen": "forros",
+            "imagen": "forros/forrosjose/IMG-20240703-WA0058.jpg",
             "precio": 10000 
         },  
     ],
     "forros-samsung":[
         {
-            "nombre": "Forros",
-            "imagen": "forros",
+            "nombre": "Forros A32",
+            "imagen": "forros/a32/WhatsApp Image 2024-06-30 at 10.58.34 AM (1).jpeg",
+            "precio": 10000 
+        },  
+        {
+            "nombre": "Forros A32",
+            "imagen": "forros/a32/WhatsApp Image 2024-06-30 at 10.58.34 AM.jpeg",
+            "precio": 10000 
+        },  
+        {
+            "nombre": "Forros A32",
+            "imagen": "forros/a32/WhatsApp Image 2024-06-30 at 11.25.37 AM.jpeg",
             "precio": 10000 
         },  
     ],
     "forros-xiaomi":[
         {
-            "nombre": "Forros",
-            "imagen": "forros",
+            "nombre": "Forros Redmi note 11 pro",
+            "imagen": "forros/rn11pro/WhatsApp Image 2024-06-30 at 11.22.53 AM.jpeg",
+            "precio": 10000 
+        },  
+        {
+            "nombre": "Forros Redmi note 12s",
+            "imagen": "forros/rn12s/WhatsApp Image 2024-06-30 at 11.23.30 AM.jpeg",
+            "precio": 10000 
+        },  
+        {
+            "nombre": "Forros Redmi note 8 pro",
+            "imagen": "forros/rn8pro/WhatsApp Image 2024-06-30 at 11.22.06 AM.jpeg",
             "precio": 10000 
         },  
     ],
@@ -124,7 +144,7 @@ const productos = {
     ],
     "forros-huawei":[
         {
-            "nombre": "Forros",
+            "nombre": "No hay",
             "imagen": "forros",
             "precio": 10000 
         },  

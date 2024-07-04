@@ -1,0 +1,83 @@
+ /* Aquí puedes mantener tus estilos personalizados adicionales */
+ body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    padding: 10px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+  }
+  
+  img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 70%;
+    height: auto;
+  }
+  .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .producto {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .precio {
+    font-size: 20px;
+    color: #007bff; /* Color azul típico de enlaces */
+    font-weight: bold;
+    margin-top: 5px;
+
+}
+h5{
+    margin-bottom: 0 !important;
+}
+.card-body{
+    padding: 1rem;
+    padding-bottom: 0rem;    
+    padding-top: 0rem;
+}
+p{
+    margin-bottom: 0.2rem;
+    margin-top: 0 !important;
+}

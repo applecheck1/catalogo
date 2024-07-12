@@ -34,12 +34,14 @@ const productos = {
         {
             "nombre": "Cabeza de cargador 5W, 1A entrada USB",
             "imagen": "cabezas/1.jpeg",
-            "precio": 5000 
+            "precio": 5000, 
+            "ref": "n1"
         },  
         {
             "nombre": "Cabeza de cargador 5W, 1A entrada USB",
             "imagen": "cabezas/2.jpeg",
-            "precio": 5000 
+            "precio": 5000, 
+            "ref": "n2"
         },  
     ],
     "audifonos":[
@@ -54,7 +56,7 @@ const productos = {
             "precio": 50000 
         },
     ],
-    "forros-iphone":[
+    "forros_iphone":[
         {
             "nombre": "Forros Xs max ",
             "imagen": "forros/forrosjose/IMG-20240703-WA0036.jpg",
@@ -101,7 +103,7 @@ const productos = {
             "precio": 10000 
         },  
     ],
-    "forros-samsung":[
+    "forros_samsung":[
         {
             "nombre": "Forros A32",
             "imagen": "forros/a32/WhatsApp Image 2024-06-30 at 10.58.34 AM (1).jpeg",
@@ -118,7 +120,7 @@ const productos = {
             "precio": 10000 
         },  
     ],
-    "forros-xiaomi":[
+    "forros_xiaomi":[
         {
             "nombre": "Forros Redmi note 11 pro",
             "imagen": "forros/rn11pro/WhatsApp Image 2024-06-30 at 11.22.53 AM.jpeg",
@@ -135,14 +137,14 @@ const productos = {
             "precio": 10000 
         },  
     ],
-    "forros-motorola":[
+    "forros_motorola":[
         {
             "nombre": "Forros 8GPLUS",
             "imagen": "forros/M1.jpeg",
             "precio": 10000 
         },  
     ],
-    "forros-huawei":[
+    "forros_huawei":[
         {
             "nombre": "No hay",
             "imagen": "forros",

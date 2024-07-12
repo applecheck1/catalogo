@@ -3,102 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Apple Check</title>
+  <title id="titulo"></title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <style>
-    body {
-      font-family: sans-serif;
-      margin: 0;
-      padding: 0;
-      min-height: 100vh; /* Asegura que el cuerpo ocupe al menos toda la altura de la ventana */
-      display: flex;
-      flex-direction: column;
-    }
-    
-    header {
-      background-color: #000;
-      color: #fff;
-      padding: 20px;
-    }
-    
-    h1 {
-      font-size: 2em;
-    }
-    
-    nav {
-      float: right;
-    }
-    
-    nav a {
-      text-decoration: none;
-      color: #fff;
-    }
-    
-    main {
-      flex-grow: 1; /* Permite que el contenido de <main> ocupe el espacio restante */
-    }
-    
-    section {
-      padding: 20px;
-    }
-    
-    h2 {
-      font-size: 2.5em;
-    }
-
-    a{
-        font-size: 1.5em;
-    }
-    
-    footer {
-      background-color: #000;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-      position: fixed; /* Fija el footer en la parte inferior */
-      bottom: 0; /* Lo coloca en el borde inferior */
-      width: 100%; /* Asegura que ocupe todo el ancho */
-    }
-  </style>
+  <link rel="stylesheet" href="style/index.css">
 </head>
 <body>
-  <header>
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col">
-          <h1>Apple Check</h1>
-        </div>
-        <div class="col">
-          <nav class="text-center">
-            <a class="btn btn-light mb-1" href="index.html"><span style="color: red">Catálogo</span></a>
-            <a class="btn btn-light" href="https://wa.me/573163748711?text=Hola%20">Contáctanos</a>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
+  <header id="header"></header>
 
   <main class="d-flex flex-column mt-5 align-items-center">
     <h2>Forros Disponibles</h2>
     <ul>
-      <li><a href="iphone.html">Iphone</a></li>
-      <li><a href="samsung.html">Samsung</a></li>
-      <li><a href="xiaomi.html">Xiaomi</a></li>
-      <li><a href="motorola.html">Motorola</a></li>
-      <li><a href="huawei.html">Huawei</a></li>
+      <li><a id="forros_iphone" href="scate.html">Iphone</a></li>
+      <li><a id="forros_samsung" href="scate.html">Samsung</a></li>
+      <li><a id="forros_xiaomi" href="scate.html">Xiaomi</a></li>
+      <li><a id="forros_motorola" href="scate.html">Motorola</a></li>
+      <li><a id="forros_huawei" href="scate.html">Huawei</a></li>
     </ul>
   </main>
 
-  <footer>
-    <div class="container">
-      <p>@Apple Check. Todos los derechos reservados</p>
-    </div>
-  </footer>
+  <footer id="footer"></footer>
 
   <!-- Scripts de Bootstrap y Popper.js -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
+  <script src="scripts/script_capas.js"></script>
+  <script src="scripts/categorias.js"></script>
 </body>
 </html>
